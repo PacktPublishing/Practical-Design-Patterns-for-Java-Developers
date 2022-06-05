@@ -7,6 +7,6 @@ public class Vehicle {
 
     public void stop(){
         this.moving = false;
-        System.out.println("moving...");
+        System.out.println("stopped...");
     }
 }
