@@ -1,0 +1,3 @@
+interface Part{
+    String name();
+}
