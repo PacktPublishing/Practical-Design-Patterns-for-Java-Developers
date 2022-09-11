@@ -1,4 +1,5 @@
-class FactoryProvider {
+final class FactoryProvider {
+    private FactoryProvider(){}
     static AbstractFactory getFactory(String type){
         return switch (type) {
             case "car" -> new CarFactory();

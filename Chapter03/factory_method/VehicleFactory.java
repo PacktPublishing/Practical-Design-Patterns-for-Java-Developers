@@ -1,4 +1,5 @@
 final class VehicleFactory {
+    private VehicleFactory(){}
     static Vehicle produce(String type){
         return switch (type) {
             case "sport" -> new SportCar("porsche 911");
