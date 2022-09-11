@@ -1,4 +1,4 @@
-class OnlyEngine {
+class OnlyEngine implements Engine{
     private static OnlyEngine INSTANCE;
     static OnlyEngine getInstance(){
         if(INSTANCE == null){
