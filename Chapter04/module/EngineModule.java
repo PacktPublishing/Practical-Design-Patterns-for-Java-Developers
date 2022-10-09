@@ -1,4 +1,4 @@
-class EngineModule implements VehicleModule {
+final class EngineModule implements VehicleModule {
     private static volatile EngineModule INSTANCE;
 
     static EngineModule getInstance() {

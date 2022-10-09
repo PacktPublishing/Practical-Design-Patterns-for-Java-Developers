@@ -1,4 +1,4 @@
-class BreaksModule implements VehicleModule{
+final class BreaksModule implements VehicleModule{
     private static BreaksModule INSTANCE;
     static BreaksModule getInstance(){
         if(INSTANCE == null){
