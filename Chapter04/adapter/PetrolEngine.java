@@ -1,4 +1,4 @@
-public class PetrolEngine implements Engine {
+final class PetrolEngine implements Engine {
     @Override
     public void run() {
         System.out.println("PetrolEngine, run");

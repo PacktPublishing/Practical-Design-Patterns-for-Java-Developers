@@ -1,4 +1,4 @@
-class ElectricEngine implements Engine{
+final class ElectricEngine implements Engine{
     @Override
     public void run() {
         System.out.println("ElectricEngine, run");
