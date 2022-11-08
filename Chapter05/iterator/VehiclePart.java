@@ -1,0 +1,2 @@
+record VehiclePart(String name) {
+}
