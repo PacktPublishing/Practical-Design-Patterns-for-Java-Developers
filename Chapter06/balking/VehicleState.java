@@ -1,0 +1,4 @@
+enum VehicleState {
+    MOVING,
+    STOPPED,
+}

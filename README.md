@@ -74,7 +74,7 @@ $ java --enable-preview -cp out/Chapter03/dependency_injection DependencyInjecti
 ```bash 
 # Starting the JavaFlightRecorder for the patterns
 # Recordings are done on Java 17
-$ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit-true,settings=profile <MAIN_CLASS>
+$ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
 ```
 
 ## Chapter 4 - structural pattern examples
@@ -181,4 +181,41 @@ $ java --enable-preview -cp out/Chapter05/template_method TemplateMethodMain
 # Visitor
 $ javac --release 17 --enable-preview -g -cp out/Chapter05/visitor -sourcepath java -d out/Chapter05/visitor ./Chapter05/visitor/*.java
 $ java --enable-preview -cp out/Chapter05/visitor VisitorMain
+```
+
+## Chapter 6 - concurrency pattern examples
+```bash
+# Active object 
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/active_object -sourcepath java -d out/Chapter06/active_object ./Chapter06/active_object/*.java
+$ java --enable-preview -cp out/Chapter06/active_object ActiveObjectMain
+
+# Async method invocation 
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/async_method -sourcepath java -d out/Chapter06/async_method ./Chapter06/async_method/*.java
+$ java --enable-preview -cp out/Chapter06/async_method AsyncMethodMain
+
+# Balking
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/balking -sourcepath java -d out/Chapter06/balking ./Chapter06/balking/*.java
+$ java --enable-preview -cp out/Chapter06/balking BalkingMain
+
+# Double-checked locking
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/double_checked -sourcepath java -d out/Chapter06/double_checked ./Chapter06/double_checked/*.java
+$ java --enable-preview -cp out/Chapter06/double_checked DoubleCheckedLockingMain
+
+# Read-write lock
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/read_write_lock -sourcepath java -d out/Chapter06/read_write_lock ./Chapter06/read_write_lock/*.java
+$ java --enable-preview -cp out/Chapter06/read_write_lock ReadWriteLockMain
+
+# Producer-consumer
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/prod_con -sourcepath java -d out/Chapter06/prod_con ./Chapter06/prod_con/*.java
+$ java --enable-preview -cp out/Chapter06/prod_con ProducerConsumerMain
+
+# Scheduler
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/scheduler -sourcepath java -d out/Chapter06/scheduler ./Chapter06/scheduler/*.java
+
+$ java --enable-preview -cp out/Chapter06/scheduler CustomSchedulerMain
+$ java --enable-preview -cp out/Chapter06/scheduler CustomScheduledThreadPoolMain
+
+# Thread-pool
+$ javac --release 17 --enable-preview -g -cp out/Chapter06/thread_pool -sourcepath java -d out/Chapter06/thread_pool ./Chapter06/thread_pool/*.java
+$ java --enable-preview -cp out/Chapter06/thread_pool ThreadPoolMain
 ```
