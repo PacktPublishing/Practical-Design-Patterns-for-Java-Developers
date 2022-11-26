@@ -69,6 +69,10 @@ $ java --enable-preview -cp out/Chapter03/lazy_initialization LazyInitialization
 # Dependency Injection
 $ javac --release 17 --enable-preview -g -cp out/Chapter03/dependency_injection -sourcepath java -d out/Chapter03/dependency_injection ./Chapter03/dependency_injection/*.java
 $ java --enable-preview -cp out/Chapter03/dependency_injection DependencyInjectionMain
+
+### it is required to have present the service providers configuration in the classpath
+$ cp -R Chapter03/dependency_injection/META-INF  out/Chapter03/dependency_injection
+$ java --enable-preview -cp out/Chapter03/dependency_injection DependencyInjectionServiceLoaderMain
 ```
 
 ```bash 
