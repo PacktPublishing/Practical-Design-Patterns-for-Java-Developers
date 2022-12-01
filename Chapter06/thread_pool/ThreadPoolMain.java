@@ -1,5 +1,3 @@
-package chapter06.thread_pool;
-
 import java.util.concurrent.Executors;
 
 class ThreadPoolMain {

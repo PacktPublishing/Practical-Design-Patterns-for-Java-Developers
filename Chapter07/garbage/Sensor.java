@@ -1,0 +1,2 @@
+record Sensor(Integer value) {
+}

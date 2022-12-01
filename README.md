@@ -223,3 +223,15 @@ $ java --enable-preview -cp out/Chapter06/scheduler CustomScheduledThreadPoolMai
 $ javac --release 17 --enable-preview -g -cp out/Chapter06/thread_pool -sourcepath java -d out/Chapter06/thread_pool ./Chapter06/thread_pool/*.java
 $ java --enable-preview -cp out/Chapter06/thread_pool ThreadPoolMain
 ```
+
+## Chapter 7 - anti-paterns exmples 
+```bash
+#  Garbage collection phenomenon
+$ javac --release 17 --enable-preview -g -cp out/Chapter07/garbage -sourcepath java -d out/Chapter07/garbage ./Chapter07/garbage/*.java
+$ java --enable-preview -cp out/Chapter07/garbage GarbageMain
+
+
+#  Busy method phenomenon
+$ javac --release 17 --enable-preview -g -cp out/Chapter07/busy_method -sourcepath java -d out/Chapter07/busy_method ./Chapter07/busy_method/*.java
+$ java --enable-preview -cp out/Chapter07/busy_method BusyMethodMain
+```
