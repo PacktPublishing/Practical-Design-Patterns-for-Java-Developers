@@ -5,5 +5,5 @@ class VehicleBlob {
     void alarmOilLevel(){}
     void runCylinder() {}
     void checkCylinderHead(){}
-    void checkWatterPump(){}
+    void checkWaterPump(){}
 }
