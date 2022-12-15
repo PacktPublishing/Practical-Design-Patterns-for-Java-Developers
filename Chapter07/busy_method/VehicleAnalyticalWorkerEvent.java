@@ -4,16 +4,16 @@ import jdk.jfr.Event;
 import jdk.jfr.Label;
 import jdk.jfr.Name;
 
-@Name("example.IntersectionWorkerEvent")
-@Label("IntersectionWorker")
-@Category("HotMethods_Example")
-@Description("work by one worker")
+@Name("busy_method.VehicleAnalyticalWorkerEvent")
+@Label("VehicleAnalyticalWorker")
+@Category("Busy Method")
+@Description("Analytical Worker")
 public class VehicleAnalyticalWorkerEvent extends Event {
-    @Label("IntersectionWorker-id")
+    @Label("AnalyticalWorker-id")
     @Description("id")
     private int id;
-    @Label("IntersectionWorker-size")
-    @Description("intersection size")
+    @Label("measured size")
+    @Description("batch size")
     private int intersectionSize;
 
     public VehicleAnalyticalWorkerEvent(Integer id) {

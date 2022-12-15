@@ -7,9 +7,9 @@ class BusyMethodMain {
     static final int ELEMENTS_NUMBER = 1000;
 
     public static void main(String[] args) throws IOException {
-        System.out.println("HotMethods Example...");
+        System.out.println("Vehicle Data Analysis Example...");
         var builder = new ThreadContainer.Builder()
-                .addThreadGroup("Hot-Method-Workers");
+                .addThreadGroup("Busy-Method-Workers");
         for (int i = 0; i < THREADS_NUMBER; i++) {
             builder.addRunnable(new VehicleAnalyticalWorker(i, ELEMENTS_NUMBER, new HashSet<>(), new HashSet<>()));
         }
