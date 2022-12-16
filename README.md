@@ -23,6 +23,19 @@ $ java --enable-preview -cp out/apie Example1_2Main
 $ java --module-path ./Chapter02/module-example.jar --module module.example/example.ExampleMain
 ```
 
+### create and open Java Flight Recorder recording
+The project contains several ***.jfr** recordings. The file name contains the identifier of the image that was created from this recording. **Java Mission Control version 8.2** was used for image creation purposes. *.jfr files can be opened in the **Java Mission Control application**, which can be downloaded from the links below.
+
+download links:
+- https://github.com/openjdk/jmc
+- https://adoptium.net/jmc/
+
+```bash 
+# Starting the JavaFlightRecorder for the patterns
+# Recordings are done on Java 17
+$ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
+```
+
 ## Chapter 1 -  initial examples
 The examples are 
 Runnable examples:
@@ -73,12 +86,6 @@ $ java --enable-preview -cp out/Chapter03/dependency_injection DependencyInjecti
 ### it is required to have present the service providers configuration in the classpath
 $ cp -R Chapter03/dependency_injection/META-INF  out/Chapter03/dependency_injection
 $ java --enable-preview -cp out/Chapter03/dependency_injection DependencyInjectionServiceLoaderMain
-```
-
-```bash 
-# Starting the JavaFlightRecorder for the patterns
-# Recordings are done on Java 17
-$ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
 ```
 
 ## Chapter 4 - structural pattern examples
