@@ -1,6 +1,6 @@
 final class SingletonMain {
     public static void main(String[] args) {
-        System.out.println("Pattern Singleton: "); 
+        System.out.println("Pattern Singleton: only one engine"); 
         var engine = OnlyEngine.getInstance();  
         var vehicle = OnlyVehicle.getInstance();
     
