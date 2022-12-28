@@ -2,7 +2,7 @@ import java.util.Map;
 
 final class VehicleCache {
   
-    private static final Map<String, Vehicle> map = Map.of("fast-car", new FastCar(), "slow-car", new SlowCar());
+    private static final Map<String, Vehicle> map = Map.of("fast-car", new FastVehicle(), "slow-car", new SlowVehicle());
 
     private VehicleCache(){}
     static Vehicle getVehicle(String type){

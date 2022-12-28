@@ -1,4 +1,4 @@
-class FastCar implements Vehicle {
+class FastVehicle implements Vehicle {
 
     final static class Builder {
         private Part engine;
@@ -15,29 +15,29 @@ class FastCar implements Vehicle {
             return this;
         }
 
-        FastCar build(){
-            return new FastCar(engine, cabin);
+        FastVehicle build(){
+            return new FastVehicle(engine, cabin);
         }
     }
 
     private final Part engine;
     private final Part cabin;
 
-    FastCar(Part engine, Part cabin){
+    FastVehicle(Part engine, Part cabin){
         this.engine = engine;
         this.cabin = cabin;
     }
 
     @Override
     public void move() {
-        System.out.println("FastCar, move");
+        System.out.println("FastVehicle, move");
         
     }
 
     @Override
     public void parts() {
-        System.out.println("FastCar,engine: " + engine);
-        System.out.println("FastCar,cabin: " + cabin);
+        System.out.println("FastVehicle,engine: " + engine);
+        System.out.println("FastVehicle,cabin: " + cabin);
         
     }
 }

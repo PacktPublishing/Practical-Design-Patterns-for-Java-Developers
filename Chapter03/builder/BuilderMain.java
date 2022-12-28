@@ -1,15 +1,15 @@
 class BuilderMain {
     public static void main(String[] args) {
-        System.out.println("Pattern Builder: Vehicle builder 1");    
+        System.out.println("Builder pattern: building vehicles ");    
 
-        var slowCar = VehicleBuilder.buildSlowCar();
-        var fastCar = new FastCar.Builder()
+        var slowVehicle = VehicleBuilder.buildSlowVehicle();
+        var fastVehicle = new FastVehicle.Builder()
                             .addCabin("cabin")
                             .addEngine("Engine")
                             .build();
 
-        slowCar.parts();
-        fastCar.parts();
+        slowVehicle.parts();
+        fastVehicle.parts();
     }
     
 }
