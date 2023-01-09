@@ -1,4 +1,4 @@
-package stream;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class StreamMain {
+class StreamMain {
     public static void main(String[] args) {
 
         List<String> list = Arrays.asList("one", "two", "forty_two");

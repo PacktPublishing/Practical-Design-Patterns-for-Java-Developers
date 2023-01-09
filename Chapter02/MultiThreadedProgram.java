@@ -3,7 +3,7 @@ public class MultiThreadedProgram {
         var t = new Thread(() -> {
             while(true){System.out.println("Welcome Thread!");}
         });
-        // t.setDaemon(true);
+        t.setDaemon(true);
         t.start();
     }
 }
