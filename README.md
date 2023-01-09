@@ -41,28 +41,28 @@ $ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true
     - encapuslation (E) : 
         - [Example 1.1 - `Vehicle.java`](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Vehicle.java)
     - inheritance   (I)
-        - [`Car.java` implementation extends `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Car.java)
-        - [`SportCar.java` class extends `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Car.java)
+        - [`Car.java` implementation extends `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Car.java)
+        - [`SportCar.java` class extends `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/SportCar.java)
     - polymorphism  (P)
         - method overloading
-            - [Figure 1.5 - `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Vehicle.java)
+            - [Figure 1.5 - `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Vehicle.java)
         - method overriding
-            - [Example 1.2, Figure 1.6 - `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Vehicle.java)
-            - [Example 1.2, Figure 1.6 - `Car` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Car.java)
+            - [Example 1.2, Figure 1.6 - `Vehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Vehicle.java)
+            - [Example 1.2, Figure 1.6 - `Car` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Car.java)
     - abstraciton   (A)
         - abstract `class`
-            - [Example 1.3, Figure 1.7 - `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/AbstractVehicle.java)
-            - [Example 1.3, Figure 1.7 - `CommonCar` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/CommonCar.java)
-            - [Example 1.3, Figure 1.7 - `SportCar` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/SportCar.java)
+            - [Example 1.3, Figure 1.7 - `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/AbstractVehicle.java)
+            - [Example 1.3, Figure 1.7 - `CommonCar` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/CommonCar.java)
+            - [Example 1.3, Figure 1.7 - `SportCar` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/SportCar.java)
         - interface `class`
-            - [Example 1.4, Figure 1.8 - `VehicleInterface` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/VehicleInterface.java)
-            - [Example 1.4, Figure 1.8 - `Truck` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Truck.java)
-            - [Example 1.4, Figure 1.8 - `Bus` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/Bus.java) 
+            - [Example 1.4, Figure 1.8 - `VehicleInterface` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/VehicleInterface.java)
+            - [Example 1.4, Figure 1.8 - `Truck` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Truck.java)
+            - [Example 1.4, Figure 1.8 - `Bus` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/Bus.java) 
         - abstract and interface `classes`
-            - [Figure 1.9 - `VehicleInterface` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/VehicleInterface.java)
-            - [Figure 1.9 - `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/AbstractVehicle.java)
-            - [Figure 1.9 - `Truck` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/CommonCar.java)
-            - [Figure 1.9 - `Bus` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Capther01/apie/SportCar.java) 
+            - [Figure 1.9 - `VehicleInterface` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/VehicleInterface.java)
+            - [Figure 1.9 - `AbstractVehicle` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/AbstractVehicle.java)
+            - [Figure 1.9 - `Truck` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/CommonCar.java)
+            - [Figure 1.9 - `Bus` class](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/blob/main/Chapter01/apie/SportCar.java) 
 
 
  2. SOLID Principles
