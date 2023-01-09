@@ -39,7 +39,7 @@ $ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true
 ## Chapter 1 -  getting into software design patterns examples
  1. **OOP** pilars **APIE** :
     - encapuslation (E) : 
-        - [Example 1.1 - `Vehicle.java`](./Capther01/apie/Vehicle.java)
+        - [Example 1.1 - `Vehicle.java`](./tree/main/Capther01/apie/Vehicle.java)
     - inheritance   (I)
         - [`Car.java` implementation extends `Vehicle` class](./Capther01/apie/Car.java)
         - [`SportCar.java` class extends `AbstractVehicle` class](./Capther01/apie/Car.java)
