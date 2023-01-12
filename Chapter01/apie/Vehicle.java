@@ -1,3 +1,4 @@
+// @start region="vehicle_example"
 public class Vehicle {
     public boolean moving;
     public void move(){
@@ -10,3 +11,4 @@ public class Vehicle {
         System.out.println("stopped...");
     }
 }
+// @end

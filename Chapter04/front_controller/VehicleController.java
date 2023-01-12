@@ -1,6 +1,6 @@
 class VehicleController {
     private final RequestDispatcher dispatcher;
-    private boolean authorised;
+    private boolean authorized;
 
     VehicleController() {
         this.dispatcher = new RequestDispatcher(new BreaksUnit(), new EngineUnit());
@@ -8,7 +8,7 @@ class VehicleController {
 
     private boolean isAuthorized() {
         System.out.println("VehicleController, is authorized");
-        return authorised;
+        return authorized;
     }
 
     private void logRequest(String request) {
@@ -16,9 +16,9 @@ class VehicleController {
                 VehicleController, log:'%s'%n""", request);
     }
 
-    void authorise() {
+    void authorize() {
         System.out.println("VehicleController, authorization");
-        authorised = true;
+        authorized = true;
     }
 
     void processRequest(String request) {
@@ -27,7 +27,7 @@ class VehicleController {
             dispatcher.dispatch(request);
         } else {
             System.out.printf("""
-                VehicleController, not authorised request:'%s'%n""", request);
+                VehicleController, not authorized request:'%s'%n""", request);
         }
     }
 }

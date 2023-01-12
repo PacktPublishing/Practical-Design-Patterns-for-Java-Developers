@@ -4,7 +4,7 @@ class FrontControllerMain {
         var vehicleController = new VehicleController();
 
         vehicleController.processRequest("engine");
-        vehicleController.authorise();
+        vehicleController.authorize();
         vehicleController.processRequest("engine");
         vehicleController.processRequest("breaks");
     }
