@@ -32,7 +32,7 @@ download links:
 # Recordings are done on Java 17
 $ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
 ```
-## Chapter 7 - anti-paterns exmples 
+## Chapter 7 - anti-patterns exmples 
 ```bash
 #  Garbage collection phenomenon
 $ javac --release 17 --enable-preview -g -cp out/Chapter07/garbage -sourcepath java -d out/Chapter07/garbage ./Chapter07/garbage/*.java
