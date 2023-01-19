@@ -53,7 +53,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products
 * Domain-Driven Design with Java - A Practitioner’s Guide  [[Packt]](https://www.packtpub.com/product/domain-driven-design-with-java-a-practitioners-guide/9781800560734?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1800560737)
 
-* Java Memory Management  [[Packt]](https://www.packtpub.com/product/java-memory-management/9781801812856?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/B09RMBJBL7)
+* Java Memory Management  [[Packt]](https://www.packtpub.com/product/java-memory-management/9781801812856?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1801812853)
 
 
 ## Get to Know the Author
