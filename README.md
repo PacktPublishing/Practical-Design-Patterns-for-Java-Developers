@@ -1,4 +1,6 @@
 # Design Patterns and Best Practices in Java 
+[![LinkedIn URL](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
+
 
 <a href="https://www.packtpub.com/product/design-patterns-and-best-practices-in-java/9781786463593?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://static.packt-cdn.com/products/9781786463593/cover/smaller" alt="Design Patterns and Best Practices in Java " height="256px" align="right"></a>
 
@@ -55,10 +57,34 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Java Memory Management  [[Packt]](https://www.packtpub.com/product/java-memory-management/9781801812856?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1801812853)
 
+## How to install Java
+Java Development Kit 17+ is required to run the book's examples. To check if it is available on your system, execute the following commands:
+```bash
+$ java -version
+
+# Expected output:
+openjdk version "17" 2021-09-14
+OpenJDK Runtime Environment (build 17+35-2724)
+OpenJDK 64-Bit Server VM (build 17+35-2724, mixed mode,
+sharing)
+```
+
+In case the JDK is not installed, feel free to visit the following links for help:
+1. [Foojay.io : Java Quick Start](https://foojay.io/java-quick-start/install-java/)
+2. [dev.java : Getting Started with Java](https://dev.java/learn/getting-started-with-java/)
+3. [Homebew Formulae: OpenJDK](https://formulae.brew.sh/formula/openjdk)
+
 
 ## Get to Know the Author
 **Miroslav Wengner**
-Miroslav Wengner is an engineer and architect with a passion for resilient distributed systems and product quality. He is a co-author and contributor to the Robo4J project (reactive soft real-time framework for robotics/IoT). He contributes to OpenJDK, and Java Mission Control Project, and is involved in other open-source technologies. Miroslav helps developers to create resilient and extendable solutions. He has been selected to Java Champions Program, recognized as JavaOne Rockstar and he has been Elected to Java Community Process (JCP) - Executive Committee to help guide the evolution of Java technologies
+is an engineer with a passion for resilient distributed systems and product quality. He is a co-author and contributor to the Robo4J project (a reactive soft real-time framework for robotics/IoT). Miro contributes to OpenJDK and participates in other open source technologies. He uses his passion for helping build resilient and scalable solutions.
+Miro was selected for the Java Champions Program, recognized as a JavaOne Rockstar, and elected to the Java Community Process (JCP) as an executive committee member.He shares his knowledge at conferences (JavaOne, Devoxx, and so on) and in blogs. Miro believes in the Java ecosystem and helps move it forward!
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/miragemiko.svg?style=social&label=Follow%20%40miragemiko)](https://twitter.com/miragemiko) <br>
+[![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mwengner/) 
+
+
+
 
 
 
