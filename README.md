@@ -75,6 +75,19 @@ In case the JDK is not installed, feel free to visit the following links for hel
 3. [Homebrew Formulae: OpenJDK](https://formulae.brew.sh/formula/openjdk)
 
 
+### How to create and open Java Flight Recorder recordings
+The project contains several ***.jfr** recordings. The file-name refers to the image that was created from this recording. **Java Mission Control version 8.2** was used for image creation purposes. *.jfr files can be opened in the **Java Mission Control application**, which can be downloaded from the links below.
+
+download links:
+- https://github.com/openjdk/jmc
+- https://adoptium.net/jmc/
+
+```bash 
+# Starting the JavaFlightRecorder for the patterns
+# Recordings are done on Java 17
+$ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
+```
+
 ## Get to Know the Author
 **Miroslav Wengner**
 is an engineer with a passion for resilient distributed systems and product quality. He is a co-author and contributor to the Robo4J project (a reactive soft real-time framework for robotics/IoT). Miro contributes to OpenJDK and participates in other open source technologies. He uses his passion for helping build resilient and scalable solutions.
