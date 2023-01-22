@@ -87,6 +87,7 @@ download links:
 # Recordings are done on Java 17
 $ java -XX:StartFlightRecording=filename=<PATTERN_NAME_MAIN>.jfr,dumponexit=true,settings=profile <MAIN_CLASS>
 ```
+[![HowToCompileAndExecuteCode](https://img.shields.io/badge/How_To_Compile_And_Execute_Code-0067B6?style=for-the-badge&logoColor=white)](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/HowToCompileAndExecute.md)
 
 ## Get to Know the Author
 **Miroslav Wengner**

@@ -1,24 +1,4 @@
-### how to compile a code
-```bash
-$ javac --release 17 --enable-preview -g -cp out -sourcepath java -d out ./<CHAPTER_NUMBER>/<CHAPTER_IDENTIFIER>/*.java
-
-# example 
-$ javac --release 17 --enable-preview -g -cp out -sourcepath java -d out ./Chapter01/apie/*.java
-
-# create module jar
-$ jar --create --file module-example.jar  -C out .
-```
-
-### how to execute example
-```bash
-$ java --enable-preview -cp out/<CHAPTER_IDENTIFIER> <EXAMPLE_NUMBER_MAIN>
-
-# example
-$ java --enable-preview -cp out/apie Example1_2Main
-
-# run module path 
-$ java --module-path ./Chapter02/module-example.jar --module module.example/example.ExampleMain
-```
+[![HowToCompileAndExecuteCode](https://img.shields.io/badge/How_To_Compile_And_Execute_Code-0067B6?style=for-the-badge&logoColor=white)](https://github.com/PacktPublishing/Practical-Design-Patterns-for-Java-Developers/HowToCompileAndExecute.md)
 ## Chapter 4 - structural pattern examples
 ```bash
 # Adapter 
