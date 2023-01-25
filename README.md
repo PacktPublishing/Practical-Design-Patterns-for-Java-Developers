@@ -71,7 +71,7 @@ sharing)
 
 In case the JDK is not installed, feel free to visit the following links for help:
 1. [Foojay.io : Java Quick Start](https://foojay.io/java-quick-start/install-java/)
-2. [dev.java : Getting Started with Java](https://dev.java/learn/getting-started-with-java/)
+2. [dev.java : Getting Started with Java](https://dev.java/learn/)
 3. [Homebrew Formulae: OpenJDK](https://formulae.brew.sh/formula/openjdk)
 
 
