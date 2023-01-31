@@ -20,7 +20,7 @@ This book covers the following exciting features:
 * Utilize and control vehicle resources with the thread-pool pattern
 * Understand the penalties caused by anti-patterns in software design
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1786463598) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/180461467X) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
