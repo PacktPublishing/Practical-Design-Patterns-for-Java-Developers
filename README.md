@@ -1,10 +1,10 @@
-# Design Patterns and Best Practices in Java 
+# Practical Design Patterns for Java Developers
 [![LinkedIn URL](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 
 
-<a href="https://www.packtpub.com/product/design-patterns-and-best-practices-in-java/9781786463593?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://static.packt-cdn.com/products/9781786463593/cover/smaller" alt="Design Patterns and Best Practices in Java " height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/practical-design-patterns-for-java-developers/9781804614679"><img src="https://static.packt-cdn.com/products/9781804614679/cover/smaller" alt="Design Patterns and Best Practices in Java " height="256px" align="right"></a>
 
-This is the code repository for [Design Patterns and Best Practices in Java ](https://www.packtpub.com/product/design-patterns-and-best-practices-in-java/9781786463593?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [ Practical Design Patterns for Java Developers ](https://www.packtpub.com/product/practical-design-patterns-for-java-developers/9781804614679), published by Packt.
 
 **Hone your software design skills by implementing popular design patterns in Java**
 
