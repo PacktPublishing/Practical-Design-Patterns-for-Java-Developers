@@ -22,10 +22,13 @@ This book covers the following exciting features:
 
 The book describes <b>42</b> popular design patterns formed into an imaginary abstraction of vehicle manufacturing to boost the learning curve. 
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/180461467X) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/180461467X) today!<br>
+What led the author to write this book: [Miroslav Wengner: The Interview](https://authors.packtpub.com/interview-with-miroslav-wengner/)
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
+
+
 
 The book 
 
