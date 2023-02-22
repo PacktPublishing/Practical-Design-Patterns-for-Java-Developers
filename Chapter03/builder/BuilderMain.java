@@ -7,9 +7,14 @@ class BuilderMain {
                             .addCabin("cabin")
                             .addEngine("Engine")
                             .build();
+        var superVehicle = new SuperVehicle.Builder()
+                            .addCabin("super_cabin")
+                            .addEngine("super_engine")
+                            .build();
 
         slowVehicle.parts();
         fastVehicle.parts();
+        superVehicle.parts();
     }
     
 }
