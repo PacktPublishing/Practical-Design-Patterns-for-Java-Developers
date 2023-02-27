@@ -20,7 +20,7 @@ This book covers the following exciting features:
 * Utilize and control vehicle resources with the thread-pool pattern
 * Understand the penalties caused by anti-patterns in software design
 
-The book describes <b>42</b> popular design patterns formed into an imaginary abstraction of vehicle manufacturing to boost the learning curve. 
+The book describes <b>42</b> popular design patterns formed into an imaginary abstraction of vehicle manufacturing to boost the learning curve (_Table 1._). 
 
 | Creational | Structural | Behavioral | Concurrent |
 | :--- | :--- | :--- | :--- |
