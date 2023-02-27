@@ -22,6 +22,25 @@ This book covers the following exciting features:
 
 The book describes <b>42</b> popular design patterns formed into an imaginary abstraction of vehicle manufacturing to boost the learning curve. 
 
+| Creational | Structural | Behavioral | Concurrent |
+| :--- | :--- | :--- | :--- |
+| _Chapter 3_ | _Chapter 4_ | _Chapter 5_ | _Chapter 6_ |
+| Factory Method | Adapter | Caching | Active Object |
+| Abstract Factory | Bridge | Chain of Responsibility | Asynchronous Method |
+| Builder | Composite | Command | Balking |
+| Prototype | Decorator | Interpreter | Double Checked Locking |
+| Singleton | Facade | Iterator | Read Write Lock |
+| Object Pool | Filter | Mediator | Producer Consumer |
+| Lazy Initialization | Flyweight | Null Object | Scheduler |
+| Dependency Injection | Front Controller | Observer | Thread Pool |
+| | Marker | Pipeline | |
+| | Module | State | |
+| | Proxy | Strategy | |
+| | Twin | Template | |
+| | | Visitor | |
+
+_Table 1._ : **42** Practical Design Patterns explored in the book
+
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/180461467X) today!<br>
 What led the author to write this book: [Miroslav Wengner: The Interview](https://authors.packtpub.com/interview-with-miroslav-wengner/)
 

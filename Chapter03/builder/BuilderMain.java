@@ -14,6 +14,7 @@ class BuilderMain {
 
         slowVehicle.parts();
         fastVehicle.parts();
+        System.out.println(superVehicle);
         superVehicle.parts();
     }
     
