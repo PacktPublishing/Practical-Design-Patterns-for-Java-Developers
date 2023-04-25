@@ -78,6 +78,8 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]( https://packt.link/nSLEf).
 
+## Errata
+* Figure 2.1 The Extension class loader mentioned in the image is called the Application & Platform Classloader 
 ### Related products
 * Domain-Driven Design with Java - A Practitioner’s Guide  [[Packt]](https://www.packtpub.com/product/domain-driven-design-with-java-a-practitioners-guide/9781800560734?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1800560737)
 
